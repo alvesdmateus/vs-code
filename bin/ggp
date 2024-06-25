@@ -3,6 +3,6 @@ MSG=$2
 
 git add *./*
 
-git commit -m "{CONTEXT^^}: $MSG"
+git commit -m "${CONTEXT^^}: $MSG"
 
 git push
